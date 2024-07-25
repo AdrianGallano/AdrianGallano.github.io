@@ -4011,13 +4011,7 @@ table.alt tbody tr td {
 	opacity: 1;
 }
 
-@media screen and (max-width: 1280px) {
 
-	#header {
-		background-image: url("../../images/bg-header1.gif");
-	}
-
-}
 
 @media screen and (max-width: 980px) {
 
