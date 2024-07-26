@@ -1,0 +1,8 @@
+
+#main-text{
+	background-clip: text;
+	background-image: url("assets/moving1.gif");
+	background-position: 20px;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+}
