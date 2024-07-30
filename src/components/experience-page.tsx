@@ -20,17 +20,6 @@ export default function ExperiencePage() {
                         <CardContent>
                             <CardDescription className="flex flex-col gap-16">
                                 <div className="flex flex-col gap-5">
-                                    <h4 className="scroll-m-20 text-xl font-semibold tracking-tight" >SOFTWARE ENGINEER @ GORDON COLLEGE RESEARCH DEVELOPMENT AND COMMUNITY
-                                        EXTENSIONS</h4>
-                                    <p>2024-Present</p>
-                                    <p>Lead developer of a software that would track the census of a community to effectively distribute
-                                        the
-                                        resources to each household. The software would help 10, 000+ community members to receive the
-                                        optimal
-                                        amount of goods, financial aids, etc. in case of community extensions, emergencies, and other
-                                        related events.</p>
-                                </div>
-                                <div className="flex flex-col gap-5">
                                     <h4 className="scroll-m-20 text-xl font-semibold tracking-tight" >SOFTWARE ENGINEERING FELLOW @ HEADSTARTER AI</h4>
                                     <p>2024-Present</p>
                                     <p>Task to create five AI projects, where my final project will focus on securing 1000 people on the
@@ -40,11 +29,14 @@ export default function ExperiencePage() {
                                         interview preparation, teamwork, and presentation.</p>
                                 </div>
                                 <div className="flex flex-col gap-5">
-                                    <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">PRORAMMING MENTOR @ GORDON COLLEGE</h4>
-                                    <p>2022-Present</p>
-                                    <p>Helped over 100+ students by guiding and teaching them about the fundamentals of programming, as
-                                        well
-                                        as web development, and mindsets when learning programming.</p>
+                                    <h4 className="scroll-m-20 text-xl font-semibold tracking-tight" >Student Researcher @ GORDON COLLEGE</h4>
+                                    <p>2024-Present</p>
+                                    <p>Developer of a software that would track the census of a community to effectively distribute
+                                        the
+                                        resources to each household. The software would help 10, 000+ community members to receive the
+                                        optimal
+                                        amount of goods, financial aids, etc. in case of community extensions, emergencies, and other
+                                        related events.</p>
                                 </div>
                             </CardDescription>
                         </CardContent>
