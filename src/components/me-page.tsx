@@ -1,4 +1,4 @@
-import AdrianGallno from "../assets/adriangallano.png"
+import AdrianGallano from "../assets/adriangallano.png"
 import "../App.css"
 import { FlipWords } from "./flip-words"
 import html5Image from "../assets/html5.png"
@@ -17,8 +17,17 @@ import postmanImage from "../assets/postman.png"
 import { HoverBorderGradient } from "./hover-border-gradient"
 import { Github } from "lucide-react"
 import { Linkedin } from "lucide-react"
+import { useMemo, useState } from "react"
+
 
 export default function MePage({ callbackChangeTab }: { callbackChangeTab: (tab: string) => void }) {
+    const [profileImage, setProfileImage] = useState(AdrianGallano)
+
+    useMemo(() => {
+        setProfileImage(AdrianGallano)
+    }, [AdrianGallano])
+
+
     function redirectToBuilds() {
         callbackChangeTab("Builds")
     }
@@ -34,7 +43,7 @@ export default function MePage({ callbackChangeTab }: { callbackChangeTab: (tab:
                             onClick={redirectToBuilds}
                             className=" dark:bg-[#020817] font-bold dark:text-white flex items-center space-x-2">
                             <div className="h-60">
-                                <img src={AdrianGallno} alt="adriangallano" className="max-h-full rounded-full" />
+                                <img src={profileImage} alt="adriangallano" className="max-h-full rounded-full" />
                             </div>
                         </HoverBorderGradient>
                     </div>
